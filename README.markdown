@@ -13,12 +13,10 @@ Notes on that configuration tool:
 
 ## Installing firmware
 
-This is a step by step guide for installing firmware from the configuration tool. Before beginning, make sure:
+Make sure:
 
 * Your keyboard is plugged in
-
 * You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](tiny_reset_button.jpg)).
-
 * Download the [firmware.eep](firmware.eep) from this repository
 
 Then:
@@ -38,31 +36,25 @@ Then:
 Notes:
 
 * If this process fails in the "Auto" button stage, try loading a .eep and a .hex file, then pressing auto and restarting the process from the beginning.
-
 * Now that your firmware is loaded, there should be a keyboard shortcut you can press instead of the Teensy reset button, if you prefer
-
-* For a more detailed account, check out the [https://github.com/benblazak/ergodox-firmware#load-firmware-onto-the-teensy)
+* For a more detailed account, check out the [ergodox-firmware repository](https://github.com/benblazak/ergodox-firmware#load-firmware-onto-the-teensy)
 
 ## Keymaps
 
-### Querty configuration from keyboard-configurator
+#### Querty configuration from keyboard-configurator
 
-![Qwerty keymap](qwerty/qwerty.png)
+[Qwerty keymap](qwerty/qwerty.png)
 
 
-### Seth configuration
+#### Seth configuration
 
-![@sethherr's keymap](seth/sethmap.png)
+[@sethherr's keymap](seth/sethmap.png) - on macuser, I use [emacs shortcuts for movement](https://www.hcs.harvard.edu/~jrus/site/system-bindings.html), so `Ctrl` is very important.
 
-I'm on a mac. I use [emacs shortcuts for movement](https://www.hcs.harvard.edu/~jrus/site/system-bindings.html), so `Ctrl` is very important.
+#### Default ErgoDox EZ configuration:
 
-### Default ErgoDox EZ configuration:
+[Default Firmware keymap for ErgoDox EZ](default_ergodox_ez/ergodox_ez_keymap.png)
 
-![Default Firmware keymap ErgoDox](default_ergodox_ez/ergodox_ez_keymap.png)
-
-Available at https://github.com/jackhumbert/qmk_firmware/tree/master/keyboard/ergodox_ez
-
-A pull request with the right information would be spectacular.
+Source code is available at https://github.com/jackhumbert/qmk_firmware/tree/master/keyboard/ergodox_ez
 
 ## Contributing
 
