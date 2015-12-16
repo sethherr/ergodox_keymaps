@@ -4,7 +4,8 @@ An easy explanation of loading keyboard maps on the ErgoDox
 
 ## Building your own layout
 
-If you're looking to configure your ErgoDox, you definitely should check out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox), which has a beautiful configuration tool.
+If you're looking to configure your ErgoDox, you definitely should check 
+out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox), which has a beautiful configuration tool.
 
 Notes on that configuration tool: 
 
@@ -23,11 +24,11 @@ Then:
 
 1. Download and run the [Teensy Loader app](http://www.pjrc.com/teensy/loader.html)
 
-2. Click the "Auto" button on the upper right hand side of the Teensy-Loader window
+2. Press and release the Teensy reset button
 
-3. Drag and drop the '.eep' file onto the Teensy loader window.
+3. Click the "Auto" button on the upper right hand side of the Teensy-Loader window
 
-4. Press and release the Teensy reset button
+4. Drag and drop the '.eep' file onto the Teensy loader window.
 
 5. Drag and drop the '.hex' file onto the Teensy loader window.
 
@@ -45,10 +46,9 @@ Notes:
 
 [Qwerty keymap](qwerty/qwerty.png)
 
-
 #### Seth configuration
 
-[@sethherr's keymap](seth/sethmap.png) - on macuser, I use [emacs shortcuts for movement](https://www.hcs.harvard.edu/~jrus/site/system-bindings.html), so `Ctrl` is very important.
+[@sethherr's keymap](seth/sethmap.png) - mac-user. I use [emacs shortcuts for movement](https://www.hcs.harvard.edu/~jrus/site/system-bindings.html)
 
 #### Default ErgoDox EZ configuration:
 
