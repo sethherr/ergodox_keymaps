@@ -1,4 +1,4 @@
-# Keyboard layouts for ErgoDox
+ # Keyboard layouts for ErgoDox
 
 An easy explanation of loading keyboard maps on the ErgoDox
 
@@ -17,7 +17,7 @@ Notes on that configuration tool:
 Make sure:
 
 * Your keyboard is plugged in
-* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](tiny_reset_button.jpg)).
+* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](tiny_reset_button.jpg)). Instead of pressing the reset button, you can press the "teensy" key on your keyboard.
 * Download the [firmware.eep](firmware.eep) from this repository
 
 Then:
@@ -28,7 +28,7 @@ Then:
 
 3. Click the "Auto" button on the upper right hand side of the Teensy-Loader window
 
-4. Drag and drop the '.eep' file onto the Teensy loader window.
+4. Drag and drop the '.eep' file onto the Teensy loader window. 
 
 5. Drag and drop the '.hex' file onto the Teensy loader window.
 
@@ -36,8 +36,7 @@ Then:
 
 Notes:
 
-* If this process fails in the "Auto" button stage, try loading a .eep and a .hex file, then pressing auto and restarting the process from the beginning.
-* Now that your firmware is loaded, there should be a keyboard shortcut you can press instead of the Teensy reset button, if you prefer
+* If this process fails in the "Auto" button stage, try dragging in a .eep and a .hex file, then pressing auto and restarting the process from the beginning.
 * For a more detailed account, check out the [ergodox-firmware repository](https://github.com/benblazak/ergodox-firmware#load-firmware-onto-the-teensy)
 
 ## Keymaps
@@ -48,7 +47,7 @@ Notes:
 
 #### Seth configuration
 
-[@sethherr's keymap](seth/sethmap.png) - mac-user. I use [emacs shortcuts for movement](https://www.hcs.harvard.edu/~jrus/site/system-bindings.html)
+[@sethherr's keymap](seth/sethmap.png) - mac-user. Ever evolving configuration
 
 #### Default ErgoDox EZ configuration:
 
