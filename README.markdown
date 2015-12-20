@@ -1,23 +1,19 @@
- # Keyboard layouts for ErgoDox
+# Keyboard layouts for ErgoDox
 
-An easy explanation of loading keyboard maps on the ErgoDox
+An easy explanation of loading keyboard maps on the ErgoDox, particularly the [ErgoDox EZ](https://www.indiegogo.com/projects/ergodox-ez-an-incredible-mechanical-keyboard)
 
 ## Building your own layout
 
-If you're looking to configure your ErgoDox, you definitely should check 
-out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox), which has a beautiful configuration tool.
+There is an upcoming tool which you could contribute to - [fusion-rails](https://github.com/ErgoDox-EZ/fusion-rails). 
 
-Notes on that configuration tool: 
-
-- the `~L1` key is layer-whilst-pressed
-
+For now, check out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox) (the ~L1 key is layer-whilst-pressed/hold-key-for-layer)
 
 ## Installing firmware
 
 Make sure:
 
 * Your keyboard is plugged in
-* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](tiny_reset_button.jpg)). Instead of pressing the reset button, you can press the "teensy" key on your keyboard.
+* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](tiny_reset_button.jpg)), or, alternatively, you know where the "teensy" key is on your keyboard.
 * Download the [firmware.eep](firmware.eep) from this repository
 
 Then:
@@ -39,26 +35,8 @@ Notes:
 * If this process fails in the "Auto" button stage, try dragging in a .eep and a .hex file, then pressing auto and restarting the process from the beginning.
 * For a more detailed account, check out the [ergodox-firmware repository](https://github.com/benblazak/ergodox-firmware#load-firmware-onto-the-teensy)
 
-## Keymaps
+## My keymap
 
-#### Querty configuration from keyboard-configurator
+![@sethherr keymap](sethmap.png) 
 
-[Qwerty keymap](qwerty/qwerty.png)
-
-#### Seth configuration
-
-[@sethherr's keymap](seth/sethmap.png) - mac-user. Ever evolving configuration
-
-#### Default ErgoDox EZ configuration:
-
-[Default Firmware keymap for ErgoDox EZ](default_ergodox_ez/ergodox_ez_keymap.png)
-
-Source code is available at https://github.com/jackhumbert/qmk_firmware/tree/master/keyboard/ergodox_ez
-
-## Contributing
-
-Please do! Add your configuration. Let's share all the information
-
-1. Take a screenshot of your configuration (from the configuration tool or wherever)
-2. Add your configuration image to the Readme, add the hexfile as well
-3. Pull request a branch with your map
+mac user. Ever evolving configuration.
