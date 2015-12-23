@@ -4,7 +4,7 @@ An easy explanation of loading keyboard maps on the ErgoDox, particularly the [E
 
 ## Building your own layout
 
-There is an upcoming tool which you could contribute to - [fusion-rails](https://github.com/ErgoDox-EZ/fusion-rails). 
+There is an upcoming tool which you could contribute to - [fusion](https://github.com/ErgoDox-EZ/fusion). 
 
 For now, check out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox) (the ~L1 key is layer-whilst-pressed/hold-key-for-layer)
 
