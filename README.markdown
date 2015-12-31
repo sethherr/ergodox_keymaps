@@ -1,19 +1,19 @@
-# Keyboard layouts for ErgoDox
+# My keyboard layout for the ErgoDox
 
-An easy explanation of loading keyboard maps on the ErgoDox, particularly the [ErgoDox EZ](https://www.indiegogo.com/projects/ergodox-ez-an-incredible-mechanical-keyboard)
-
-## Building your own layout
+[Read the ErgoDox EZ docs for more information](https://github.com/ErgoDox-EZ/docs)
 
 There is an upcoming tool which you could contribute to - [fusion](https://github.com/ErgoDox-EZ/fusion). 
 
-For now, check out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox) (the ~L1 key is layer-whilst-pressed/hold-key-for-layer)
+For now, check out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox) (the ~L1 key is layer-whilst-pressed/hold-key-for-layer). 
+
+You can [load my current configuration](https://keyboard-configurator.massdrop.com/ext/ergodox/?referer=JG8K58&hash=01e500269b961cdf91d4d07bf5b89dc9) on the massdrop configurator.
 
 ## Installing firmware
 
 Make sure:
 
 * Your keyboard is plugged in
-* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](tiny_reset_button.jpg)), or, alternatively, you know where the "teensy" key is on your keyboard.
+* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](https://github.com/ErgoDox-EZ/docs/blob/master/tiny_reset_button.jpg)), or, alternatively, you know where the "teensy" key is on your keyboard.
 * Download the [firmware.eep](firmware.eep) from this repository
 
 Then:
@@ -40,3 +40,5 @@ Notes:
 ![@sethherr keymap](sethmap.png) 
 
 mac user. Ever evolving configuration.
+
+There are certain keys that I can't reach and hence don't use. Which is why they are dumb
