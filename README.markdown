@@ -10,30 +10,26 @@ You can [load my current configuration](https://keyboard-configurator.massdrop.c
 
 ## Installing firmware
 
-Make sure:
+([from the ErgoDox docs](https://github.com/ErgoDox-EZ/docs))
+
+First, make sure:
 
 * Your keyboard is plugged in
-* You know what the "Teensy reset button" is ([on the ErgoDox EZ it's the hole in the upper right](https://github.com/ErgoDox-EZ/docs/blob/master/tiny_reset_button.jpg)), or, alternatively, you know where the "teensy" key is on your keyboard.
-* Download the [firmware.eep](firmware.eep) from this repository
+* You know what the "Teensy reset button" is ([the tiny hole in the upper right](tiny_reset_button.jpg)). Alternatively, you can use the "teensy" key if it's in your keymap.
 
 Then:
 
 1. Download and run the [Teensy Loader app](http://www.pjrc.com/teensy/loader.html)
-
 2. Press and release the Teensy reset button
-
 3. Click the "Auto" button on the upper right hand side of the Teensy-Loader window
-
-4. Drag and drop the '.eep' file onto the Teensy loader window. 
-
-5. Drag and drop the '.hex' file onto the Teensy loader window.
-
-6. Press and release the Teensy reset button
+4. Drag and drop the '.hex' file onto the Teensy loader window.
+5. Press and release the Teensy reset button
 
 Notes:
 
-* If this process fails in the "Auto" button stage, try dragging in a .eep and a .hex file, then pressing auto and restarting the process from the beginning.
+* If this process fails in the "Auto" button stage, try dragging in a the [firmware.eep](firmware.eep) file (from this repository) and a .hex file, then pressing auto and restarting the process from the beginning.
 * For a more detailed account, check out the [ergodox-firmware repository](https://github.com/benblazak/ergodox-firmware#load-firmware-onto-the-teensy)
+
 
 ## My keymap
 
@@ -41,4 +37,4 @@ Notes:
 
 mac user. Ever evolving configuration.
 
-There are certain keys that I can't reach and hence don't use. Which is why they are dumb
+There are certain keys that I can't reach and hence don't use regulary and forget what they do. So I've turned them mostly into spacebar, because that never fucked anything up.
