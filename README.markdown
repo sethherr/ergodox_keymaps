@@ -6,7 +6,7 @@ There is an upcoming tool which you could contribute to - [fusion](https://githu
 
 For now, check out the [keyboard-configurator from massdrop](https://keyboard-configurator.massdrop.com/ext/ergodox) (the ~L1 key is layer-whilst-pressed/hold-key-for-layer). 
 
-You can [load my current configuration](https://keyboard-configurator.massdrop.com/ext/ergodox/?referer=JG8K58&hash=01e500269b961cdf91d4d07bf5b89dc9) on the massdrop configurator.
+**You can [load my current configuration](https://keyboard-configurator.massdrop.com/ext/ergodox/?referer=JG8K58&hash=e629711e92cb52bd6d19840716e7f497) on the massdrop configurator.**
 
 ## Installing firmware
 
@@ -33,8 +33,8 @@ Notes:
 
 ## My keymap
 
-![@sethherr keymap](sethmap.png) 
+![@sethherr keymap](sethmap.png)
 
-mac user. Ever evolving configuration.
+mac user, [here are my shortcuts](https://gist.github.com/sethherr/094eb7e2261cff16afd0)
 
-There are certain keys that I can't reach and hence don't use regulary and forget what they do. So I've turned them mostly into spacebar, because that never fucked anything up.
+There are keys that I can't reach, don't use regulary and hence forget what they do. So I made them spacebar, because space never fucked anything up.
