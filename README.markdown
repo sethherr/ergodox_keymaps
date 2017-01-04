@@ -1,7 +1,5 @@
 # My keyboard layout for the ErgoDox
 
-Sergodox
-
 Made with the **ErgoDox EZ Configurator** - [view/clone layout on the configurator](http://configure.ergodox-ez.com/keyboard_layouts/qwopgl/edit)
 
 ![@sethherr keymap](sethmap.png)
