@@ -1,6 +1,6 @@
 # My keyboard layout for the ErgoDox
 
-Made with the **ErgoDox EZ Configurator** - [view/clone layout on the configurator](http://configure.ergodox-ez.com/keyboard_layouts/qwopgl/edit)
+Made with the **ErgoDox EZ Configurator** - [view/clone layout on the configurator](http://configure.ergodox-ez.com/keyboard_layouts/kzjwjn/edit)
 
 ![@sethherr keymap](sethmap.png)
 
